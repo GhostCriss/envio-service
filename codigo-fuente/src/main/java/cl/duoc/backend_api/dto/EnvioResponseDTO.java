@@ -5,10 +5,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 public class EnvioResponseDTO {
-    private Long envioId;
+    private Long id;
     private String codigoSeguimiento;
     private String estado;
 }
